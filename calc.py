@@ -2,6 +2,7 @@
 # '1 + 2' -> 3, or '1 - 2' -> -1.
 def compute(expression):
     values = expression.split(' ')
+	num0, num1 = int(num0), int(num1)
     num0 = int(values[0])
     operator = values[1]
     num1 = int(values[2])
